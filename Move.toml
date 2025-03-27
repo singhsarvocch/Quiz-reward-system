@@ -1,0 +1,15 @@
+[package]
+name = "Quiz-reward-system"
+version = "1.0.0"
+authors = []
+
+[addresses]
+DailyQuiz = "0x6d477d1856deac904639e3dc391b2d2775873528115a989906fc19e3dfd86ff4"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
